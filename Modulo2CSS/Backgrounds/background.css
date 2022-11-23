@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 400px;
+}
+
+div{
+    height: 400px;
+}
+
+.backColor{
+    background-color:#beef00 ;
+}
+
+.opacityBack{
+    background-color: #1400c6 ;
+    opacity: 0.5;
+}
+
+.imageBack{
+    background-image: url(../images/fondo1.jpg);
+}
+
+.repeatedBackX{
+    background-image: url(../images/fondo2.jpg);
+    background-repeat: repeat-x;
+}
+
+.repeatedBackY{
+    background-image: url(../images/fondo1.jpg);
+    background-repeat: repeat-y;
+}
+
+.no-repeatedBack{
+    background-image: url(../images/fondo2.jpg);
+}
+
+.positionBack{
+    background-image: url(../images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.completeBack{
+    background-image: url(../images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composed Elements I need finish It</title>
+</head>
+<body>
+
+    <h1>Composed elements LaunchX explication</h1>
+    <hr>
+
+    <!--Labels-->
+    <label for="input1">Input text label example</label>
+    <br>
+
+    <!--Inputs-->
+    <input type="text" id="input1" name="input1">
+
+    <!--Input Types-->
+    <hr>
+        <h2>Text Inputs</h2>
+        <label for="email1">E-mail Input</label>
+        <input type="email" id="email1" name="email1">
+        <br> <br>
+        <label for="number1">Number Input</label>
+        <input type="number" id="number1" name="number1">
+        <br> <br>
+        <label for="pass1">Password Input</label>
+        <input type="password" id="pass1" name="pass1">
+        <br><br>
+        <label for="tel1">Telephone Input</label>
+        <input type="tel" id="tel1" name="tel1" maxlength="10">
+    <hr>
+
+    <h2>Multiple selection input</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="Onion">
+    <label for="topping1">Tacos with onion</label>
+    <br>
+    <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+    <label for="topping2">Tacos with cilantro</label>
+    <br>
+    <input type="checkbox" id="topping3" name="topping3" value="Sauce">
+    <label for="topping3">Tacos with sauce</label>
+    <hr>
+    <h2>Unique selection input</h2>
+    <input type="radio" id="red" name="Sauces" value="Red">
+    <label for="red">Red</label><br>
+    <input type="radio" id="green" name="Sauces" value="green">
+    <label for="green">Green</label><br>
+    <input type="radio" id="guacamole" name="Sauces" value="guacamole">
+    <label for="guacamole">Guacamole</label>
+    <hr>
+
+    <h2>Select / combobox</h2>
+    <label for="tacos">What will be the order</label>
+    <select name="tacos" id="tacos">
+        <option value="suadero">Suadero</option>
+        <option value="tripa">Tripa</option>
+        <option value="campechano">Campechano</option>
+        <option value="pastor">Pastor</option>
+    </select>
+    <hr>
+    <br>
+    <h2>Select with input</h2>
+    <label for="sodas">Choose your favorite soda !!!</label>
+    <input list="sodas">
+        <datalist id="sodas">
+            <option value="Coca cola"></option>
+            <option value="Manzanita"></option>
+            <option value="Orange"></option>
+            <option value="7up"></option>
+            <option value="Lemon water"></option>
+        </datalist>
+    <br><br>
+    <hr>
+    <!--Date input-->
+    <input type="date" id="date1" name="date1"><br>
+    <input type="datetime-local" id="date_time1" name="date_time1"><br>
+    <input type="week" id="week1" name="week1"><br>
+    <input type="time" id="time1" name="time1"><br>
+    <input type="month" id="month1" name="month1"><br>
+    <hr>
+   <!--File Input, Color, Range-->
+   <h2>File Input</h2> 
+   <input type="file" id="file1" name="file1" multiple><br><br>
+   <hr>
+   <h2>Color Input</h2>
+   <input type="color" id="color1" name="color1"><br><br>
+   <hr>
+   <h2>Range Input</h2>
+   <input type="range" id="range1" name="range1" min="0" max="669">
+   <hr>
+   <!--Bottom Input-->
+   <h2>Bottom Input</h2>
+   <input type="reset"><br><br>
+   <input type="submit"><br><br>
+   <input type="button" id="buttIn1" name="buttIn1" value="My bottom 1" onclick="alert('Welcome home explorers');"><br><br>
+   <hr>
+
+   <!--Form example-->
+   <h2>Form Example</h2>
+        <form action="/action.js" id="form1" method="post">
+            <label for="nombre">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <input type="submit" value="Submit"><br><br>
+            <input type="reset">
+        </form>
+        <br><hr>
+        <label for="lastname">Last name</label><br>
+        <input type="text" id="lastname" name="lastname" form="form1">
+    
+
+    
+</body>
+</html>
