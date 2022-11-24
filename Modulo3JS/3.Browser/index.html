@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script on the browser</title>
+    <style>
+        div {
+            width: 200px;
+            height: 150px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title">We use JS on browser</h1>
+    <p>This is a paragraph</p>
+    <a href="#" class="links">This is another paragraph</a>
+
+    <p id="demo"></p>
+    <h2 id="click" onclick="changeText">Click here</h2>
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+        <p>Mouse over me</p>
+    </div>
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)">
+        <p>Click me</p>
+    </div>
+    <button id="button">TEST ME</button>
+
+</body>
+<footer>
+    <script src="./app.js"></script>
+</footer>
+
+</html>
